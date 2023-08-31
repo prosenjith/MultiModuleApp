@@ -14,3 +14,9 @@ dependencyResolutionManagement {
 }
 rootProject.name = "MultiModuleApp"
 include ':app'
+include ':feature'
+include ':feature:mylibrary'
+include ':feature:news'
+include ':data'
+include ':data:news'
+include ':network'

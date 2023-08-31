@@ -1,8 +1,11 @@
-package com.example.multimoduleapp
+package com.example.multimoduleapp.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.multimoduleapp.R
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
